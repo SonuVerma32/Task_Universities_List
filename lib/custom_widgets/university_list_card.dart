@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:universities_task/custom_widgets/custom_text.dart';
+import 'package:universities_task/helpers/app_constants.dart';
 import 'package:universities_task/helpers/text_styles.dart';
 import 'package:universities_task/models/universities_models.dart';
 
@@ -18,24 +19,24 @@ class UniversityListCard extends StatelessWidget {
       child: Column(
         children: [
           UniKeyValue(
-            keyData: "Domain",
-            valueData: universitiesModel.domains?.first ?? 'N/A',
+            keyData: AppConstants.domain,
+            valueData: universitiesModel.domains?.first ?? AppConstants.na,
           ),
           UniKeyValue(
-            keyData: "Alphe Code",
-            valueData: universitiesModel.alphaTwoCode ?? 'N/A',
+            keyData: AppConstants.alphaCode,
+            valueData: universitiesModel.alphaTwoCode ?? AppConstants.na,
           ),
           UniKeyValue(
-            keyData: "State Province",
-            valueData: universitiesModel.stateprovince ?? 'N/A',
+            keyData: AppConstants.stateProvince,
+            valueData: universitiesModel.stateprovince ?? AppConstants.na,
           ),
           UniKeyValue(
-            keyData: "Name",
-            valueData: universitiesModel.name ?? 'N/A',
+            keyData: AppConstants.name,
+            valueData: universitiesModel.name ?? AppConstants.na,
           ),
           UniKeyValue(
-            keyData: "web_pages",
-            valueData: universitiesModel.webPages?.first ?? 'N/A',
+            keyData: AppConstants.webPages,
+            valueData: universitiesModel.webPages?.first ?? AppConstants.na,
           ),
         ],
       ),

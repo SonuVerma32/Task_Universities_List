@@ -13,7 +13,7 @@ class LoadingIndicator extends StatelessWidget {
         decoration: BoxDecoration(
             // color: primaryColor.withOpacity(.6),
             borderRadius: BorderRadius.circular(15)),
-        child: Center(
+        child: const Center(
             child: CircularProgressIndicator(
               // color: containerColor,
             )),
