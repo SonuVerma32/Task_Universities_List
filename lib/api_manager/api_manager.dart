@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
-import 'package:universities_task/api_manager/response_models/response_model.dart';
+import 'package:universities_task/models/response_model.dart';
 
 class ApiManager {
   final String _baseUrl = "http://universities.hipolabs.com/";
