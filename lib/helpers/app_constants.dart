@@ -1,5 +1,5 @@
 class AppConstants {
-  static const na = "'N/A'";
+  static const na = "N/A";
   static const domain = "Domain";
   static const alphaCode = "Alphe Code";
   static const stateProvince = "State Province";
