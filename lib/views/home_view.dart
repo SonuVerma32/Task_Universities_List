@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:universities_task/controllers/universities_controller.dart';
-import 'package:universities_task/custom_widgets/custom_loading_indicator.dart';
 import 'package:universities_task/custom_widgets/custom_text.dart';
-import 'package:universities_task/custom_widgets/university_list_card.dart';
 import 'package:universities_task/helpers/text_styles.dart';
 import 'package:universities_task/views/universities_view.dart';
 

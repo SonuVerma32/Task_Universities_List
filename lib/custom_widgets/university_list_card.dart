@@ -57,14 +57,14 @@ class UniKeyValue extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         SizedBox(
-            width: width * .22,
+            width: width * .21,
             child: CustomText(text: keyData, textStyle: AppTextStyle.label())),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: CustomText(text: ":", textStyle: AppTextStyle.label()),
         ),
         SizedBox(
-            width: width * .47,
+            width: width * .48,
             child:
                 CustomText(text: valueData, textStyle: AppTextStyle.label())),
       ],
